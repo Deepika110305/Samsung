@@ -1,0 +1,78 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": [],
+      "authorship_tag": "ABX9TyNK/xDP9h5p1RhSceH7nx4l",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/Deepika110305/Samsung/blob/main/Amazon_problem\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": null,
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "-RMIm_IpekOP",
+        "outputId": "63e702c0-45e2-4a07-ffb4-325e01eceaec"
+      },
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "the sales in min 21000\n",
+            "the sales in hours 1260000\n",
+            "the sales in day 30240000\n",
+            "the sales in month 907200000\n",
+            "the sales in year 11037600000\n"
+          ]
+        }
+      ],
+      "source": [
+        "# 1. amazon problem\n",
+        "\n",
+        "amazon = 350 #per sec\n",
+        "min = 60*350\n",
+        "print(\"the sales in min\", min)\n",
+        "hours = 350*60*60\n",
+        "print(\"the sales in hours\", hours)\n",
+        "day = 350*24*60*60\n",
+        "print(\"the sales in day\",day)\n",
+        "month = 350*30*24*60*60\n",
+        "print(\"the sales in month\",month)\n",
+        "year = 350*365*24*60*60\n",
+        "print(\"the sales in year\",year)"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [],
+      "metadata": {
+        "id": "2jypDfYAhxXr"
+      },
+      "execution_count": null,
+      "outputs": []
+    }
+  ]
+}
